@@ -1,16 +1,17 @@
-# greetings.py
+Question 7__________
+Using a program you wrote that has
+one function in it, store that
+function in a separate file.
+Import the function into your main
+program file, and call the function 
+using each of these approaches:
 
+solution _____________
 def greet_user(name):
     print(f"Hello, {name}!")
-    # main_program1.py
-import greetings
-
+    import greetings
 greetings.greet_user("Alice")
-# main_program1.py
 import greetings
-
 greetings.greet_user("Alice")
-# main_program4.py
 import greetings as gr
-
 gr.greet_user("Diana")

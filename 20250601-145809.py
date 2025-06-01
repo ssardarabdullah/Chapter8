@@ -1,8 +1,16 @@
+Question 4_________
+Make a list containing 
+a series
+of short text messages. Pass the
+list to a function called show_
+messages(), which prints each text
+message.
+
+solution _________
+
 def show_messages(messages):
     for message in messages:
         print(message)
-
-# List of short text messages
 text_messages = [
     "Hey, how are you?",
     "Don't forget the meeting at 10am.",
@@ -10,6 +18,4 @@ text_messages = [
     "Happy birthday!",
     "Call me when you're free."
 ]
-
-# Call the function with the list
 show_messages(text_messages)
